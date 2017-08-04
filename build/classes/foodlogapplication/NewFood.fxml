@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="413.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodlogapplication.NewFoodController">
+   <children>
+      <Label layoutX="28.0" layoutY="64.0" text="Name:" />
+      <TextField fx:id="name" layoutX="117.0" layoutY="63.0" />
+      <Label layoutX="259.0" layoutY="7.0" text="Add Food">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="64.0" text="Portion Size:" />
+      <TextField fx:id="portion_size" layoutX="405.0" layoutY="63.0" />
+      <Label layoutX="28.0" layoutY="129.0" text="Protein:" />
+      <TextField fx:id="protein" layoutX="117.0" layoutY="128.0" />
+      <Label layoutX="28.0" layoutY="161.0" text="Total Fat:" />
+      <TextField fx:id="fat" layoutX="117.0" layoutY="160.0" />
+      <Label layoutX="28.0" layoutY="193.0" text="Carbohydrates:" />
+      <TextField fx:id="carb" layoutX="117.0" layoutY="192.0" />
+      <Label layoutX="28.0" layoutY="225.0" text="Fiber:" />
+      <TextField fx:id="fiber" layoutX="117.0" layoutY="224.0" />
+      <Label layoutX="28.0" layoutY="258.0" text="Sugar:" />
+      <TextField fx:id="sugar" layoutX="117.0" layoutY="257.0" />
+      <Label layoutX="28.0" layoutY="290.0" text="Calcium:" />
+      <TextField fx:id="calcium" layoutX="117.0" layoutY="289.0" />
+      <Label layoutX="555.0" layoutY="72.0" text="g" />
+      <Label layoutX="267.0" layoutY="137.0" text="g" />
+      <Label layoutX="267.0" layoutY="169.0" text="g" />
+      <Label layoutX="267.0" layoutY="200.0" text="g" />
+      <Label layoutX="267.0" layoutY="232.0" text="g" />
+      <Label layoutX="266.0" layoutY="265.0" text="g" />
+      <Label layoutX="266.0" layoutY="297.0" text="mg" />
+      <TextField fx:id="iron" layoutX="117.0" layoutY="323.0" />
+      <Label layoutX="316.0" layoutY="132.0" text="Potassium:" />
+      <TextField fx:id="potassium" layoutX="405.0" layoutY="131.0" />
+      <Label layoutX="316.0" layoutY="164.0" text="Sodium:" />
+      <TextField fx:id="sodium" layoutX="405.0" layoutY="163.0" />
+      <Label layoutX="316.0" layoutY="196.0" text="Vitamin C:" />
+      <TextField fx:id="vit_c" layoutX="405.0" layoutY="195.0" />
+      <Label layoutX="316.0" layoutY="228.0" text="Vitamin D:" />
+      <TextField fx:id="vit_d" layoutX="405.0" layoutY="227.0" />
+      <Label layoutX="316.0" layoutY="261.0" text="Saturated Fat:" />
+      <TextField fx:id="s_fat" layoutX="405.0" layoutY="260.0" />
+      <Label layoutX="316.0" layoutY="293.0" text="Cholesterol:" />
+      <TextField fx:id="cholesterol" layoutX="405.0" layoutY="292.0" />
+      <Label layoutX="555.0" layoutY="140.0" text="mg" />
+      <Label layoutX="555.0" layoutY="172.0" text="mg" />
+      <Label layoutX="555.0" layoutY="203.0" text="mg" />
+      <Label layoutX="555.0" layoutY="235.0" text="IU" />
+      <Label layoutX="554.0" layoutY="268.0" text="g" />
+      <TextField fx:id="cal" layoutX="405.0" layoutY="327.0" />
+      <Label layoutX="554.0" layoutY="300.0" text="mg" />
+      <Label layoutX="28.0" layoutY="324.0" text="Iron:" />
+      <Label layoutX="266.0" layoutY="331.0" text="mg" />
+      <Label layoutX="316.0" layoutY="328.0" text="Calories (kcal):" />
+      <Label layoutX="554.0" layoutY="335.0" text="mg" />
+      <Button layoutX="282.0" layoutY="374.0" mnemonicParsing="false" onAction="#addNewFood" text="Add" />
+      <Button layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#showMain" text="Back" />
+      <Hyperlink fx:id="usdaLink" layoutX="444.0" layoutY="9.0" onAction="#showUsdaLink" text="USDA nutrition database" />
+   </children>
+</AnchorPane>
